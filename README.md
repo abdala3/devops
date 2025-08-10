@@ -146,7 +146,7 @@ jobs:
           scp -i ~/.ssh/id_rsa -r ./index.html ./style.css ec2-user@54.123.45.67:/var/www/dev-site
 ```
 4. Finalizada a etapa anterior, faça um ***push*** forçado no projeto para testar as etapas de **CI/CD**.
-   - Commitar sem a necessidade de alteração em algum arquivo: ```git commit --allow-empty -m "força execução do pipeline após correção de segredo"``
+   - Commitar sem a necessidade de alteração em algum arquivo: ```git commit --allow-empty -m "força execução do pipeline após correção de segredo"```
    - Ativar o deploy: ```git push```
 
 ###### Passos configurados (Actions)
